@@ -13,7 +13,7 @@ import torch
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-HUGGING_FACE_USER_NAME = "AminHagh78"
+HUGGING_FACE_USER_NAME = "AminHaghdadi"
 model_name='llama-2-7b-Persian'
 
 peft_model_id = f"{HUGGING_FACE_USER_NAME}/{model_name}"
